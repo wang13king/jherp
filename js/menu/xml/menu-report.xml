@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Menus id="Mod_report" text="台账报表" iconCls="mod-org"> 
+	<Items id="WealthReport" text="财富中心报表" iconCls="menu-finance-report" isPublic="false">
+		<Items id="CsInvestmentperson" text="投资客户统计" iconCls="btn-tree-team40" isPublic="false">
+			<Item id="CsInvestmentpersonDetailInfo?reportKey=PersonDetailInfo" iconCls="btn-tree-team39" text="投资客户明细表 " />
+		    <Item id="CsInvestmentpersonNewlyAdded?reportKey=NewlyAdded" iconCls="btn-tree-team39" text="新增投资客户月度统计表 " />
+		    <Item id="CsInvestmentpersonBirthday?reportKey=BeGoingBirthday" iconCls="btn-tree-team39" text="投资客户即将生日表 " />
+		    <Item id="CsInvestmentpersonSumInvest?reportKey=CsInvestPersonSumInvest" iconCls="btn-tree-team39" text="投资客户累计投资统计表 " />
+		    <Item id="CsInvestmentpersonCount?reportKey=CsInvestmentpersonCount" iconCls="btn-tree-team39" text="投资大客户累计投资统计表 " />
+		</Items>
+		<Items id="FinancialProductsBuy" text="理财产品统计" iconCls="btn-tree-team40" isPublic="false">
+			<Item id="FinancialProductsDetail?reportKey=ProductsDetailBuy" iconCls="btn-tree-team39" text="理财产品购买明细表" >
+				<Function iconCls="btn-detail" text="查看所有" id="_seeAll_FinancialProducts"/>
+				<Function iconCls="btn-detail" text="门店分离" id="_seeShop_FinancialProducts"/>
+				<Function iconCls="btn-detail" text="上下级分离" id="_seeNext_FinancialProducts"/>
+			</Item>
+				
+			<Item id="FinancialProductsDividendMonth?reportKey=ProductsDividendMonth" iconCls="btn-tree-team39" text="理财产品派息预算表" />
+			<Item id="FinancialProductsDividend?reportKey=ProductsDividend" iconCls="btn-tree-team39" text="理财产品派息预算明细表" />
+			<Item id="FinancialProductsDividendAlready?reportKey=ProductsDividendAlready" iconCls="btn-tree-team39" text="理财产品派息明细表" />
+			<Item id="FinancialProductsDetailShop?reportKey=ProductsDetailBuyShop" iconCls="btn-tree-team39" text="门店理财产品购买明细表" />
+			<Item id="FinancialProductsDetailDividendShop?reportKey=ProductsDetailBuyDividendShop" iconCls="btn-tree-team39" text="门店理财产品派息预算表" />
+			<Item id="FinancialProductsDetailAlreadyShop?reportKey=ProductsDetailBuyAlreadyShop" iconCls="btn-tree-team39" text="门店理财产品派息明细表" />
+			<Item id="FinancialProductsModule?reportKey=ProductsDetailBuyMy" iconCls="btn-tree-team39" text="自己业绩统计" />
+			<Item id="FinancialProductsShopModule?reportKey=ProductsDetailBuy" iconCls="btn-tree-team39" text="团队业绩统计" />
+		</Items>
+	</Items>
+</Menus>

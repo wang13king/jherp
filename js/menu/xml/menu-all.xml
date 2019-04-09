@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Modules>
+        <!-- 客户中心  -->
+   		<module name="customer" file="menu-customer.xml" isHaveDesktop="true" businessName="客户中心">
+   		<!-- desktype中name表示桌面对应的js表Id    isUsed   表示是否启用      deskName  表示桌面的名称 -->
+   			 <!--<deskType  name="4" isUsed="true" deskName="财富桌面"></deskType>
+   		--><deskType  name="PersonalDeskNew" isUsed="true" deskName="财富业务桌面"></deskType>
+   		</module>
+   		<!-- 财富中心  -->
+   		<module name="investcstmanger" file="menu-investcstmanger.xml" isHaveDesktop="true" businessName="财富业务">
+   		 <!--desktype中name表示桌面对应的js表Id    isUsed   表示是否启用      deskName  表示桌面的名称 --><!--
+   		-->
+   		</module> 
+   		
+   		<!-- 网站运营 -->
+        <module name="p2p" file="menu-p2p.xml" isHaveDesktop="true" businessName="网站运营">
+        <!-- desktype中name表示桌面对应的js表Id    isUsed   表示是否启用      deskName  表示桌面的名称 -->
+        	
+        </module>
+        
+   		<!-- 报表中心 -->
+   		<module name="report" file="menu-report.xml" isHaveDesktop="false" businessName="报表中心">
+   		<!-- desktype中name表示桌面对应的js表Id    isUsed   表示是否启用      deskName  表示桌面的名称 -->
+   		 	<deskType  name="4" isUsed="true" deskName="财富桌面"></deskType>
+   		</module>
+   		
+        <!-- 系统管理 -->
+       <module name="erp" file="menu-erp.xml" isHaveDesktop="false" businessName="系统管理">
+       <!-- desktype中name表示桌面对应的js表Id    isUsed   表示是否启用      deskName  表示桌面的名称 -->
+        	<deskType  name="4" isUsed="true" deskName="财富桌面"></deskType>
+       </module>
+        
+   		<!-- 组织机构  -->
+   		<!-- <module name="org" file="menu-org.xml"/>-->
+   		<!-- 营销中心  -->
+   		<!--<module name="marketing" file="menu-marketing.xml" isHaveDesktop="false" businessName="营销中心"> -->
+   		<!-- desktype中name表示桌面对应的js表Id    isUsed   表示是否启用      deskName  表示桌面的名称 -->
+   			 <!--<deskType  name="4" isUsed="true" deskName="财富桌面"></deskType>
+   		-->
+   		<!--</module> -->
+</Modules>

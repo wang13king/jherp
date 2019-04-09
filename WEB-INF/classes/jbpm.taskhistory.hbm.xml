@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+      "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping auto-import="false" package="org.jbpm.pvm.internal.task" default-access="field">
+
+  <!-- ### TASK ########################################################### -->
+  <class name="HistoryLocalTaskImpl" 
+         table="JBPM4_HIST_TASK"
+         discriminator-value="T">
+    <id name="dbid" column="DBID_">
+      <generator class="assigned" />
+    </id>
+    <version name="dbversion" column="DBVERSION_" />
+    <property name="executionId" column="EXECUTION_"/>
+    <property name="outcome" column="OUTCOME_"/>
+    <property name="assignee" column="ASSIGNEE_"/>
+    <property name="priority" column="PRIORITY_" />
+    <property name="state" column="STATE_"/>
+    <property name="createTime" column="CREATE_"/>
+    <property name="endTime" column="END_"/>
+    <property name="duration" column="DURATION_"/>
+  </class>
+</hibernate-mapping>

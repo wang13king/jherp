@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<Menus id="Mod_p2p" text="运营中心" iconCls="mod-org"> 
+	
+	<Items id="UpLineCustManger" text="注册用户管理 " iconCls="menu-finance">
+		<Item id="BpCustMemberView?isForBidType=0" text="用户账号管理" iconCls="menu-finance">
+		</Item>
+		<Item id="BpCustMemberView?isForBidType=1" text="禁用用户管理" iconCls="menu-finance">
+		</Item>
+		<Item id="BpCustLoginlogView" text="用户登录日志" iconCls="menu-finance">
+		</Item>
+		<Item id="InvitesRecommandQueryView" text="邀请推荐查询" iconCls="menu-finance">
+		</Item>
+		<Item id="PlBidInfoView?userType=0" iconCls="menu-finance" text="会员投资查询"></Item>
+		<Item id="BpCustMemberBorrow?userType=0" iconCls="menu-finance" text="会员借款查询"></Item>
+		<!--<Item id="PlBidAutoView" iconCls="menu-finance" text="自动投标管理"></Item>
+		<Item id="CouponsIncome" iconCls="menu-finance" text="散标优惠券收益查询"></Item>
+		<Item id="CouponsAssignIncome" iconCls="menu-finance" text="理财优惠券收益查询"></Item>
+	--></Items>
+	
+	<Items id="CustMoneyManger_p2p" text="资金账户管理" iconCls="menu-finance">
+		<Item id="investmentAccountView?accountType=accountSee&amp;type=0" iconCls="menu-finance" text="线上资金账户查询"></Item>
+		<Item id="PersonAccountDealInfoListQuery?Type=0" iconCls="menu-finance" text="资金账户收支查询"></Item>
+		<!--<Item id="withdrawCheck?Type=0" iconCls="menu-finance" text="线上提现申请审核"></Item>
+		<Item id="withdrawChecking?Type=0" iconCls="menu-finance" text="线上提现审核中"></Item>
+		<Item id="withdrawPass?Type=0" iconCls="menu-finance" text="线上提现审核成功"></Item>
+		<Item id="withdrawCancel?Type=0" iconCls="menu-finance" text="线上提现审核失败"></Item>
+	--></Items>
+</Menus>
